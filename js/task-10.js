@@ -29,8 +29,8 @@ buttonCreate.addEventListener("click", () => {
 });
 
 buttonDestroy.addEventListener("click", () => {
-  const allDiv = fatherBox.querySelectorAll("div");
-  allDiv.forEach((div) => div.remove());
-
+  // const allDiv = fatherBox.querySelectorAll("div");
+  // allDiv.forEach((div) => div.remove());
+  fatherBox.textContent = "";
   divSize = 30;
 });
